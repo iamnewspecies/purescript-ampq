@@ -1,0 +1,29 @@
+{
+  "name": "purescript-amqp",
+  "version": "1.0.0",
+  "description": "RabbitMQ + Scheduler",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./output/Test.Main/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamnewspecies/purescript-amqp.git"
+  },
+  "keywords": [
+    "RabbitMQ",
+    "Scehduler",
+    "amqp",
+    "Purescript"
+  ],
+  "author": "iamnewspecies",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamnewspecies/purescript-amqp/issues"
+  },
+  "homepage": "https://github.com/iamnewspecies/purescript-amqp#readme",
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "node-celery": "^0.2.8"
+  }
+}
